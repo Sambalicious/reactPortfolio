@@ -8,11 +8,6 @@ body{
     font-family: 'Montserrat';
 }
 
-.custom-background{
-   background-color: red;
-   color: red;
-}
-
-hr{
-    border: 6px solid red;
+.sam{
+    background: red;
 }

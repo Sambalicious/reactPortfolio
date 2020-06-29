@@ -3,15 +3,15 @@ import React from 'react'
 const AboutMe = () => {
     return (
         <>
-        <div className="md:flex justify-center md:mt-5 sm:justify-around">
-            <div className="hidden md:block md:mr-2">
+        <div className="justify-center mx-4 mt-6 md:flex">
+            <div className="md:mr-2">
                 <img src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_operating_a_computer"/>
             </div>
-            <div className="mt-4 mx-8 justify-center">
-                <div className="font-extrabold text-4xl mb-2 text-center">About Me</div>
-                <div className="mt-2">I am a passionate, self taught web developer with keen interest in innovative design</div>
-                <div> implementation and understanding of technique geared towards optimum user experience.</div>
-                <div>I am result driven, so, i attach great importance to everything i do.</div>
+            <div className="justify-center -mt-10 md:mt-4">
+                <div className="mb-4 text-4xl font-extrabold text-center hover:text-purple-400">About Me</div>
+                <div className="mt-2 font-bold text-purple-700">I am a passionate, self taught web developer with keen interest in innovative design</div>
+                <div className="font-bold text-purple-700"> implementation and understanding of technique geared towards optimum user experience.</div>
+                <div className="font-bold text-purple-700">I am result driven, so, i attach great importance to everything i do.</div>
                 
               
             </div>      
