@@ -2,6 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import ReactTypingEffect from 'react-typing-effect';
 import Loader from '../../utils/Loader';
+import LoaderTwo from '../../utils/LoaderTwo';
 
 const buttonVariant = {
     hover:{
@@ -57,7 +58,7 @@ const Home = () => {
                <div className="mt-3 text-center">
                <div className="-mb-10">
                   <Loader />
-                  <Loader />
+                  <LoaderTwo />
                </div>
 
                 

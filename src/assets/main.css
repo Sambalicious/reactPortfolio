@@ -14358,7 +14358,7 @@ body{
 }
 
 .top{
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
 }
 
 @media (min-width: 640px) {

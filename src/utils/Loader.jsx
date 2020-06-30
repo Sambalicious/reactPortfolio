@@ -19,25 +19,15 @@ const loaderVariant ={
 
         }
     },
-    animationTwo:{
-        y:[0, -40],
-        x:0,
-        transition:{
-            y:{
-                yoyo:Infinity,
-                duration:0.25,
-                ease: "easeOut"
-            }
-        }
-    }
+   
 }
 const Loader = () => {
-    const [animation,cycleAnimation] = useCycle( "animationTwo", "animationOne",)
+   /*const [animation,cycleAnimation] = useCycle( "animationTwo", "animationOne",)*/
     return (
         <>
-        <motion.div onClick={()=>cycleAnimation()} className="loader"
+        <motion.div className="loader"
             variants={loaderVariant}
-            animate={animation}
+            animate='animationOne'
         >
             
         </motion.div>
