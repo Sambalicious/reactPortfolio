@@ -55,7 +55,7 @@ const Home = () => {
              
                </motion.div> 
                <div className="mt-3 text-center">
-               <div className="-mb-6">
+               <div className="-mb-10">
                   <Loader />
                   <Loader />
                </div>
