@@ -9,7 +9,7 @@ import {FaLinkedinIn} from 'react-icons/fa';
 import {FaStackOverflow} from 'react-icons/fa'
 const ContactMe = () => {
     return (
-        <div id="contact" className="py-6 font-semibold text-center text-white bg-purple-400">
+        <div id="contact" className="py-6 text-center text-white bg-purple-400">
             <div className="pb-2 text-2xl font-extrabold">GET IN TOUCH</div>
             <div><span className="flex justify-center"><span className="mr-2"><FaPhoneAlt size={'1rem'} /></span>07033098551</span></div>
            <a rel="noopener noreferrer"  target="_blank" href="mailto:stemitope370@gmail.com">
@@ -35,6 +35,8 @@ const ContactMe = () => {
 
             </IconContext.Provider>
             </div>
+            <a href="#home"><div className=" flex justify-end py-2 px-4 text-white top">Top</div></a>
+            
             <div className="flex justify-end mr-6 text-xs text-white">Copyright <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} />  2020</div>
         </div>
     )

@@ -55,16 +55,18 @@ const buttonVariant = {
 const Home = () => {
     return ( 
         <>
-        <div className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-20 md:flex-row">
-            <motion.div className="mx-auto px-8  md:mt-32"
-                variants={containerVariants}
-                initial="hidden"
-                animate="visible"
-                
-            >      <div className='mt-4 mb-2  text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
+        <div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-20 md:flex-row">
+            <div className="mx-auto px-8  md:mt-32">      
+            <motion.div
+               variants={containerVariants}
+               initial="hidden"
+               animate="visible"
+            >
+
+            <div className='mt-4 mb-2  text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
                <div className="text-lg font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL AYEGBUSI" /></div>
-               <div className="mb-8 font-thin md:mr-3 hover:text-blue-300"><ReactTypingEffect typingDelay={12000} text="I write codes on the frontend side" /></div>
-                
+               <div className="mb-8 font-thin md:mr-3 hover:text-blue-300"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side" /></div>
+               </motion.div> 
                 <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1MUK1s3-5dOBPK1DV4mytV95m_Pk9bie0/view?usp=drivesdk">
                 <motion.button class="bg-purple-400 text-white font-bold py-2 px-6 rounded inline-flex items-center"
                  variants={buttonVariant}
@@ -76,14 +78,12 @@ const Home = () => {
             </a>
             <Loader />
             <Loader />
-            </motion.div>
-            <motion.div className="flex justify-start "
-                variants={imgVariant}
-                initial="hidden"
-                animate="visible"
+            </div>
+            <div className="flex justify-start "
+                
                 >
                 <img src="https://i.ibb.co/jLBwTM9/undraw-developer-activity-bv83.png" alt="man_operating_a_computer"/>
-            </motion.div>
+            </div>
 
             
         </div>
