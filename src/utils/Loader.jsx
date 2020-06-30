@@ -35,13 +35,12 @@ const Loader = () => {
     const [animation,cycleAnimation] = useCycle("animationOne", "animationTwo")
     return (
         <>
-        <motion.div className="loader"
+        <motion.div onClick={()=>cycleAnimation()} className="loader"
             variants={loaderVariant}
             animate={animation}
         >
             
         </motion.div>
-        <div onClick={()=>cycleAnimation()}>Cycle Loader</div>
         </>
     )
 }

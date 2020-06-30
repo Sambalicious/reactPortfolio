@@ -1,12 +1,13 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-import Loader from '../../utils/Loader';
+
 
 
 const Navbar = () => {
     return ( 
         <>
                         <nav className="flex flex-wrap items-center justify-between p-2 bg-purple-400 ">
+                          
             <motion.div className="items-center flex-shrink-0 ml-2 mr-6 text-white lg:flex"
                  drag
                  dragConstraints={{left:0, top: 0, right:0, bottom:0}}
