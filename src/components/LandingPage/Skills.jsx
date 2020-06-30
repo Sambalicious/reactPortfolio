@@ -1,5 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion'
+
 import SkillsUtils from '../../utils/SkillsUtils'
 
 
@@ -16,7 +17,9 @@ const skillVariant = {
 }
 const Skills = () => {
     return (
-        <div className="my-4 bg-white sam">  
+        
+        <div className="my-4 bg-white">  
+       
             <div className="mt-3 mb-10 text-4xl font-extrabold text-center hover:text-purple-400">
                 Skills
                
@@ -40,7 +43,6 @@ const Skills = () => {
                 <SkillsUtils skill={'Boostrap'} />
                 <SkillsUtils skill={'TailwindCSS'} />
             </motion.div>
-            
         </div>
     )
 }
