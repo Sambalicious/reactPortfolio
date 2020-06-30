@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import ReactTypingEffect from 'react-typing-effect';
 import Loader from '../../utils/Loader';
 import LoaderTwo from '../../utils/LoaderTwo';
-import LoaderThree from '../../utils/LoaderThree';
+
 
 const buttonVariant = {
     hover:{
