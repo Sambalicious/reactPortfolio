@@ -47,8 +47,8 @@ const Home = () => {
                animate="visible"
             >
               <div>
-              <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
-               <div className="text-lg text-purple-600 font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL  AYEGBUSI " /></div>
+              <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am," /></div>
+               <div className="text-lg text-purple-600 font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL  AYEGBUSI. " /></div>
                <div className="mb-8 text-purple-600 font-thin md:mr-3"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side." /></div>
               </div>
            
