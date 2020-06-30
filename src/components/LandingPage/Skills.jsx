@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import SkillsUtils from '../../utils/SkillsUtils'
 
 
@@ -17,15 +17,16 @@ const skillVariant = {
 }
 const Skills = () => {
     return (
-        
-        <div className="my-4 bg-white">  
        
-            <div className="mt-3 mb-10 text-4xl font-extrabold text-center hover:text-purple-400">
+        <div className="my-12 bg-white">  
+         <ScrollAnimation animateIn='fadeIn'  animateOut='fadeOut'>
+       
+            <div className="mt-3 mb-6  text-4xl font-extrabold text-center hover:text-purple-400">
                 Skills
                
                 </div>
             
-            <motion.div class="lg:grid grid-cols-3 my-6 col-gap-10 row-gap-2 mx-5 md:mx-20"
+            <motion.div class="lg:grid grid-cols-3 my-6 col-gap-10 row-gap-2 mx-6 md:mx-20"
                 variants={skillVariant}
                 initial="hidden"
                 animate="visible"
@@ -43,7 +44,9 @@ const Skills = () => {
                 <SkillsUtils skill={'Boostrap'} />
                 <SkillsUtils skill={'TailwindCSS'} />
             </motion.div>
+            </ScrollAnimation>
         </div>
+  
     )
 }
 

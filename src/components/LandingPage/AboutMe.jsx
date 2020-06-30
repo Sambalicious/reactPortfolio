@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const AboutMe = () => {
     return (
         <>
-        <ScrollAnimation animateIn='fadeIn'  animateOut='fadeOut'>
+        <ScrollAnimation animateIn='bounceInRight'  animateOut='bounceOutLeft'>
         <div  className="text-center px-4 mx-4 mt-10 md:flex">
             <div className="md:mr-2">
                 <img src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_operating_a_computer"/>

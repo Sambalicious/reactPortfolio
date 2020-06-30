@@ -40,16 +40,16 @@ const Home = () => {
     return ( 
         <>
         <div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row">
-            <div className="mx-auto px-8  md:mt-32">      
+            <div className="mx-auto px-4  md:mt-32">      
             <motion.div
                variants={containerVariants}
                initial="hidden"
                animate="visible"
             >
               <div>
-              <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am," /></div>
+              <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
                <div className="text-lg text-purple-600 font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL  AYEGBUSI. " /></div>
-               <div className="mb-8 text-purple-600 font-thin md:mr-3"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side." /></div>
+               <div className="mb-8 text-purple-600 font-bold md:mr-3"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side." /></div>
               </div>
            
              
