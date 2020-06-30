@@ -17,31 +17,31 @@ const Navbar = () => {
             </motion.div>
 
             <div onClick={()=>setShow(!show)} className={ show ? "block lg:hidden": undefined }>
-                <button className="flex items-center p-3 text-teal-200 border border-teal-400 rounded hover:text-white hover:border-white">
+                <button className="flex  p-3 text-white border border-white font-bold rounded hover:text-white hover:border-white">
                 <svg className="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
-            <div className="block w-full md:flex md:justify-end items-center lg:w-auto">
-            <div  className={show ? "text-md md:flex-grow": 'hidden' } >              
+            <div className="block w-full md:flex lg:items-center md:justify-center lg:w-auto">
+            <div  className={show ? "text-base mt-4 md:flex-grow": 'hidden' } >              
                 
-                <motion.a href="#home" className="block mt-4 mb-4 mr-4 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
+                <motion.a href="#home" className="block mt-4 mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
                 whileHover={{scale:1.1,originX:0}}
                 transition={{type:'spring', stiffness:120}}
                 >
                 
                     HOME
                 </motion.a>
-                <motion.a href="#resume" className="block mb-4 mr-4 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
+                <motion.a href="#resume" className="block mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
                 whileHover={{scale:1.1,originX:0}}
                 transition={{type:'spring', stiffness:120}}>
                     RESUME
                 </motion.a>
-                <motion.a href="#projects" className="block mb-4 mr-4 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
+                <motion.a href="#projects" className="block mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
                 whileHover={{scale:1.1,originX:0}}
                 transition={{type:'spring', stiffness:120}}>
                     PROJECTS
                 </motion.a>
-                <motion.a href="#contact" className="block mt-4 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
+                <motion.a href="#contact" className="block mt-4 mr-4 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
                 whileHover={{scale:1.1,originX:0}}
                 transition={{type:'spring', stiffness:120}}>
                     CONTACT

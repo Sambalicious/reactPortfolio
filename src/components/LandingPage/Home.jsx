@@ -67,6 +67,11 @@ const Home = () => {
                <div className="text-lg font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL AYEGBUSI" /></div>
                <div className="mb-8 font-thin md:mr-3 hover:text-blue-300"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side" /></div>
                </motion.div> 
+               <div className="-mb-6">
+                  <Loader />
+                  <Loader />
+               </div>
+              
                 <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1MUK1s3-5dOBPK1DV4mytV95m_Pk9bie0/view?usp=drivesdk">
                 <motion.button class="bg-purple-400 text-white font-bold py-2 px-6 rounded inline-flex items-center"
                  variants={buttonVariant}
@@ -76,8 +81,7 @@ const Home = () => {
                   <span>Download Resume</span>
                 </motion.button>
             </a>
-            <Loader />
-            <Loader />
+            
             </div>
             <div className="flex justify-start "
                 
