@@ -3,6 +3,7 @@ import {motion} from 'framer-motion';
 import ReactTypingEffect from 'react-typing-effect';
 import Loader from '../../utils/Loader';
 import LoaderTwo from '../../utils/LoaderTwo';
+import LoaderThree from '../../utils/LoaderThree';
 
 const buttonVariant = {
     hover:{
@@ -36,11 +37,36 @@ const buttonVariant = {
         stiffness:300
       }
     }
+    
+}
+
+const containerVariant={
+  hidden:{
+    opacity:0,
+    x:'100vw'
+  },
+  visible:{
+    opacity:1,
+    x:0,
+    transition:{
+      type:'spring',
+      delay:1.5
+    }
+  },
+  exit:{
+    x:'-100vw',
+    transition:{ease:'easeInOut'}
+  }
 }
 const Home = () => {
     return ( 
         <>
-        <div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row">
+        <motion.div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
+            variants={containerVariant}
+            initial="hidden"
+            animate="visible"
+            exit='exit'
+        >
             <div className="mx-auto px-4  md:mt-32">      
             <motion.div
                variants={containerVariants}
@@ -59,6 +85,7 @@ const Home = () => {
                <div className="-mb-10">
                   <Loader />
                   <LoaderTwo />
+                 
                </div>
 
                 
@@ -80,7 +107,7 @@ const Home = () => {
             </div>
 
             
-        </div>
+        </motion.div>
        
         </>
     
