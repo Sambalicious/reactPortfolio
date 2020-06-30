@@ -16,22 +16,6 @@ const buttonVariant = {
     }
   }
 
-  const imgVariant ={
-      hidden:{
-          opacity:0,
-          x:'-100vw'
-      },
-      visible:{
-          opacity:1,
-          x:0,
-          transition:{
-              types:"spring",
-              delay:0.1,
-              when:'beforeChildren',
-              staggerChildren:2
-          }
-      }
-  }
 
   const containerVariants={
     hidden:{
@@ -63,9 +47,9 @@ const Home = () => {
                animate="visible"
             >
 
-            <div className='mt-4 mb-2  text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
-               <div className="text-lg font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL AYEGBUSI" /></div>
-               <div className="mb-8 font-thin md:mr-3 hover:text-blue-300"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side" /></div>
+            <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={5000} eraseDelay={500000} text="Hello, I am" /></div>
+               <div className="text-lg text-purple-600 font-extrabold"><ReactTypingEffect cursor=" " typingDelay={8000} eraseDelay={500000} text="SAMUEL    AYEGBUSI " /></div>
+               <div className="mb-8 text-purple-600 font-thin md:mr-3"><ReactTypingEffect typingDelay={12000} eraseDelay={500000} text="I write codes on the frontend side" /></div>
                </motion.div> 
                <div className="-mb-6">
                   <Loader />
