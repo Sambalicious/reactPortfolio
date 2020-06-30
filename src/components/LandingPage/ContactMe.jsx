@@ -10,10 +10,10 @@ import {FaStackOverflow} from 'react-icons/fa'
 const ContactMe = () => {
     return (
         <div id="contact" className="py-6 text-center text-white bg-purple-400">
-            <div className="pb-2 text-2xl font-extrabold">GET IN TOUCH</div>
+            <div className="pb-2 text-lg font-bold">GET IN TOUCH</div>
             <div><span className="flex justify-center"><span className="mr-2"><FaPhoneAlt size={'1rem'} /></span>07033098551</span></div>
            <a rel="noopener noreferrer"  target="_blank" href="mailto:stemitope370@gmail.com">
-            <span className="flex justify-center"><span className="mr-2"><MdMailOutline size={'2rem'} /></span>Stemitope370@gmail.com</span>
+            <span className="flex justify-center"><span className="mr-2"><MdMailOutline size={'1.5rem'} /></span>Stemitope370@gmail.com</span>
             </a>
             <div className="flex justify-center ">
             <IconContext.Provider value={{size:"1.5rem", className:"mr-4 my-2"}}>

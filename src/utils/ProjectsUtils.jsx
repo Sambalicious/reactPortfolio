@@ -16,7 +16,7 @@ const ProjectsUtils = ({title, body, technology, link1, link2}) => {
                       <IoMdLink size="2rem"/>
                     </a>
                   </div>
-                    <h5 className="mt-6 mb-2">{title}</h5>
+                    <h5 className="mt-6 font-bold mb-2">{title}</h5>
                     <p className="mb-10">{body}</p>
 
                     

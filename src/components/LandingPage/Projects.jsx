@@ -4,7 +4,7 @@ import ProjectsUtils from '../../utils/ProjectsUtils';
 
 const Projects = () => {
     return ( 
-        <div id="projects" className="mx-5 my-12 md:mx-20">
+        <div id="projects" className="mx-5 md:my-20  md:mx-20">
              <h2 className="my-5 text-4xl font-extrabold text-center hover:text-purple-400">Projects</h2>
             <div class="lg:grid grid-cols-3 row-gap-5 col-gap-10">
                 <ProjectsUtils

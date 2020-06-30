@@ -25,7 +25,7 @@ const Skills = () => {
                
                 </div>
             
-            <motion.div class="lg:grid grid-cols-3 col-gap-10 row-gap-2 mx-5 md:mx-20"
+            <motion.div class="lg:grid grid-cols-3 my-6 col-gap-10 row-gap-2 mx-5 md:mx-20"
                 variants={skillVariant}
                 initial="hidden"
                 animate="visible"
