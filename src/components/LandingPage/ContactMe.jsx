@@ -35,7 +35,9 @@ const ContactMe = () => {
 
             </IconContext.Provider>
             </div>
-            <a href="#home"><div className=" flex justify-end py-2 px-4 text-white top">Top</div></a>
+            <a href="#home">
+                <div className="flex justify-end mb-2"> <button className="  py-2 px-4 text-white top">Back To Top</button></div>
+               </a>
             
             <div className="flex justify-end mr-6 text-xs text-white">Copyright <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} />  2020</div>
         </div>

@@ -14357,6 +14357,10 @@ body{
   background: #b794f4;
 }
 
+.top{
+  background-color: rgba(0,0,0,0.3);
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

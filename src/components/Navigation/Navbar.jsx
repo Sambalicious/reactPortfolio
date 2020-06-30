@@ -7,9 +7,9 @@ const Navbar = () => {
     const [show, setShow] = useState(true);
     return ( 
         <>
-                        <nav className="flex flex-wrap items-center justify-between p-3 bg-purple-400 ">
+                        <nav className="flex flex-wrap items-center pl-3 justify-between p-3 bg-purple-400 ">
                           
-            <motion.div className="items-center flex-shrink-0 ml-2 mr-6 text-white lg:flex"
+            <motion.div className="items-center flex-shrink-0  mr-6 text-white lg:flex"
                  drag
                  dragConstraints={{left:0, top: 0, right:0, bottom:0}}
                  dragElastic={0.7}>
