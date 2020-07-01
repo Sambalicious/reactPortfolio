@@ -1,6 +1,7 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import ReactTypingEffect from 'react-typing-effect';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Loader from '../../utils/Loader';
 import LoaderTwo from '../../utils/LoaderTwo';
 
@@ -61,22 +62,23 @@ const containerVariant={
 const Home = () => {
     return ( 
         <>
+          <ScrollAnimation animateIn='fadeIn'  animateOut='fadeOut'>
         <motion.div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
             variants={containerVariant}
             initial="hidden"
             animate="visible"
             exit='exit'
         >
-            <div className="mx-auto px-4  md:mt-32">      
+            <div className="px-4 mx-auto md:mt-32">      
             <motion.div
                variants={containerVariants}
                initial="hidden"
                animate="visible"
             >
               <div>
-              <div className='mt-4 mb-2 text-purple-600 text-2xl font-extrabold'> <ReactTypingEffect cursor=" " typingDelay={4000} eraseDelay={500000} text="Hello, I am" /></div>
-               <div className="text-lg text-purple-600 font-extrabold"><ReactTypingEffect cursor=" " typingDelay={6000} eraseDelay={500000} text="SAMUEL  AYEGBUSI. " /></div>
-               <div className="mb-8 text-purple-600 font-bold md:mr-3"><ReactTypingEffect typingDelay={10000} eraseDelay={500000} text="I write codes on the frontend side." /></div>
+              <div className='mt-4 mb-2 text-2xl font-extrabold text-purple-600'> <ReactTypingEffect cursor=" " typingDelay={4000} eraseDelay={500000} text="Hello, I am" /></div>
+               <div className="text-lg font-extrabold text-purple-600"><ReactTypingEffect cursor=" " typingDelay={6000} eraseDelay={500000} text="SAMUEL  AYEGBUSI. " /></div>
+               <div className="mb-8 font-bold text-purple-600 md:mr-3"><ReactTypingEffect typingDelay={10000} eraseDelay={500000} text="I write codes on the frontend side." /></div>
               </div>
            
              
@@ -108,7 +110,7 @@ const Home = () => {
 
             
         </motion.div>
-       
+        </ScrollAnimation>
         </>
     
      );
