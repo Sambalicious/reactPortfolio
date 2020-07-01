@@ -7,13 +7,13 @@ const Navbar = () => {
     const [show, setShow] = useState(true);
     return ( 
         <>
-                        <nav className="flex flex-wrap items-center pl-3 justify-between p-3 bg-purple-400 ">
+                        <nav id="nav" className="flex flex-wrap items-center pl-3 justify-between p-3 bg-purple-400 ">
                           
             <motion.div className="items-center flex-shrink-0  mr-6 text-white lg:flex"
                  drag
                  dragConstraints={{left:0, top: 0, right:0, bottom:0}}
                  dragElastic={0.7}>
-              <img src="https://i.ibb.co/0XYfdNc/Group-1.png" alt="brand_logo"/>
+              <img rel="preconnect" src="https://i.ibb.co/0XYfdNc/Group-1.png" alt="brand_logo"/>
             </motion.div>
 
             <div onClick={()=>setShow(!show)} className={ show ? "block lg:hidden": undefined }>

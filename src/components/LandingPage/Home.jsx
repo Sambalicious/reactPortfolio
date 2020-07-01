@@ -103,7 +103,7 @@ const Home = () => {
             <div className="flex justify-start "
                 
                 >
-                <img src="https://i.ibb.co/jLBwTM9/undraw-developer-activity-bv83.png" alt="man_operating_a_computer"/>
+                <img rel="preconnect" src="https://i.ibb.co/jLBwTM9/undraw-developer-activity-bv83.png" alt="man_operating_a_computer"/>
             </div>
 
             

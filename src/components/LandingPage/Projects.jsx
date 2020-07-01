@@ -21,7 +21,7 @@ const Projects = () => {
 
                 <ProjectsUtils
                     title={'Computer based test App'} 
-                    body={'A create-react-app Computer based test with lifelines such as 50/50: this takes two wrong option and a hint: this takes away one wrong option one at a time.'}
+                    body={'A create-react-app Computer based test with lifelines such as 50/50; this takes two wrong option and a hint; this takes away one wrong option one at a time.'}
                     technology={'Technologies: React, SCSS, Git'} 
                     link1={'https://cbt-app.netlify.app/'}
                     link2={'https://github.com/Sambalicious/reactQuizApp'}
@@ -29,7 +29,7 @@ const Projects = () => {
 
                 <ProjectsUtils 
                     title={'Venture Garden Group Interns Page'}
-                    body={'A Registration App for intern for registration and it provides them with all they need to know about the Venture Garden Group virtual Internship.'}
+                    body={'A create-react-app for Interns\' registration and source of Information about  join Venture Garden Group Virtual Internship.'}
                     technology={'Technologies: React, Bootstrap'}
                     link1={'https://vgg-internship.herokuapp.com/'}
                     link2={'https://github.com/Sambalicious/VGG_landing_page'}
@@ -37,7 +37,7 @@ const Projects = () => {
 
                 <ProjectsUtils 
                     title={'Luxury Hotel'}
-                    body={'A website Template for Hotel companies. Built on a design to sharpen my Frontend skills.'}
+                    body={'A website Template for Hotel companies. Customers can browse room prices, checkout hotel\'s facilities and also book their favourite rooms.'}
                     technology={'Technologies: HTML, CSS, Bootstrap, Git'}
                     link1={'https://luxury-hotel.netlify.app/'}
                     link2={'https://github.com/Sambalicious/Hng-TeamFury-facility'}
@@ -53,8 +53,8 @@ const Projects = () => {
 
                 <ProjectsUtils
                     title={'MyWallet'}
-                    body={'A create react App built to strength my knowledge of Hooks and Context API'}
-                    technology={'Technologies: MongoDB, Node, Express, React, Context API'}
+                    body={'A create-react-app that keeps track of user\'s income and expenses. Once the App is ready, it will help to keep track of transactions and stores inflows and outflows of money'}
+                    technology={'Technologies: React, Context API'}
                     link1={'https://e-pocket.netlify.app/'}
                     link2={'https://github.com/Sambalicious/moneyCalc'}
                  />

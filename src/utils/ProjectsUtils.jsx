@@ -10,7 +10,7 @@ const ProjectsUtils = ({title, body, technology, link1, link2}) => {
                <ScrollAnimation animateIn="bounceInRight"  animateOut="bounceOutLeft">
               <motion.div className="min-h-full p-6 mb-3 text-purple-400 bg-white rounded-lg shadow-2xl hover:bg-purple-400 hover:text-white"
                  whileHover={{scale:1.05,originX:0}}
-                 transition={{type:'spring', stiffness:200}}
+                 transition={{type:'spring', stiffness:300}}
               >
                   <div className="flex justify-between my-6">
                   <a href={link1} target="_blank" rel="noopener noreferrer">

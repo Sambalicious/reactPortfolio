@@ -27,14 +27,14 @@ const AboutMe = () => {
         <>
         <ScrollAnimation animateIn='bounceInRight'  animateOut='bounceOutLeft'>
             <AnimatePresence exitBeforeEnter >
-        <motion.div  className="text-center px-4 mx-4 mt-10 md:flex"
+        <motion.div  className="text-center  justify-center px-4 mx-6 mt-20 md:flex"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
             exit='exit'
         >
-            <div className="md:mr-2">
-                <img src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_operating_a_computer"/>
+            <div className="md:mr-5">
+                <img rel="preconnect" src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_operating_a_computer"/>
             </div>
             <div className="justify-center -mt-10 md:mt-4">
                 <div className="mb-4 text-4xl font-extrabold text-center hover:text-purple-400">About Me</div>
