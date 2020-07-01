@@ -7,9 +7,9 @@ const Navbar = () => {
     const [show, setShow] = useState(true);
     return ( 
         <>
-                        <nav id="nav" className="flex flex-wrap items-center pl-3 justify-between p-3 bg-purple-400 ">
+                        <nav id="nav" className="flex flex-wrap items-center justify-between p-3 pl-3 bg-purple-400 ">
                           
-            <motion.div className="items-center flex-shrink-0  mr-6 text-white lg:flex"
+            <motion.div className="items-center flex-shrink-0 mr-6 text-white lg:flex"
                  drag
                  dragConstraints={{left:0, top: 0, right:0, bottom:0}}
                  dragElastic={0.7}>
@@ -17,7 +17,7 @@ const Navbar = () => {
             </motion.div>
 
             <div onClick={()=>setShow(!show)} className={ show ? "block lg:hidden": undefined }>
-                <button className="flex  p-3 text-white border border-white font-bold rounded hover:text-white hover:border-white">
+                <button className="flex p-3 font-bold text-white border border-white rounded hover:text-white hover:border-white">
                 <svg className="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 
                     HOME
                 </motion.a>
-                <motion.a href="#resume" className="block mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
+                <motion.a target="_blank" href="https://drive.google.com/file/d/1MUK1s3-5dOBPK1DV4mytV95m_Pk9bie0/view?usp=drivesdk" className="block mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
                 whileHover={{scale:1.1,originX:0}}
                 transition={{type:'spring', stiffness:120}}>
                     RESUME
