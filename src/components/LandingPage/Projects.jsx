@@ -6,7 +6,7 @@ import ProjectsUtils from '../../utils/ProjectsUtils';
 const Projects = () => {
     return ( 
        
-        <div id="projects" className="mx-5 md:my-20 my-16 md:mx-20">
+        <div id="projects" className="mx-5 my-16 md:my-20 md:mx-20">
             <ScrollAnimation animateIn="bounceInRight"  animateOut="bounceOutLeft">
              <h2 className="my-3 text-4xl font-extrabold text-center hover:text-purple-400">Projects</h2>
              </ScrollAnimation>
@@ -30,8 +30,8 @@ const Projects = () => {
                 <ProjectsUtils 
                     title={'Venture Garden Group Interns Page'}
                     body={'A create-react-app for Interns\' registration and source of Information about  join Venture Garden Group Virtual Internship.'}
-                    technology={'Technologies: React, Bootstrap'}
-                    link1={'https://vgg-internship.herokuapp.com/'}
+                    technology={'Technologies:MongoDB, Node, React, Bootstrap'}
+                    link1={'https://vgg-internship-website.herokuapp.com/'}
                     link2={'https://github.com/Sambalicious/VGG_landing_page'}
                 />
 
