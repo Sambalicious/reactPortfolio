@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
 import {motion, AnimatePresence} from 'framer-motion'
 
 const containerVariants={
@@ -24,8 +23,13 @@ const containerVariants={
 
 const AboutMe = () => {
     return (
-        <>
-        <ScrollAnimation animateIn="fadeIn"  animateOut="fadeOut">
+        <div
+          data-aos="zoom-out-down" 
+          data-aos-offset="200"
+          data-aos-easing="ease-in-cubic" 
+          data-aos-duration="2000"
+        >
+        
             <AnimatePresence exitBeforeEnter >
         <motion.div  className="justify-center px-4 mx-6 mt-20 text-center md:flex"
             variants={containerVariants}
@@ -45,8 +49,8 @@ const AboutMe = () => {
             
         </motion.div>
         </AnimatePresence>
-        </ScrollAnimation> 
-        </>
+
+        </div>
     )
 }
 
