@@ -34,7 +34,7 @@ const Navbar = () => {
                           <div  className={show ? "text-base mt-4 md:flex-grow": 'hidden' } >              
                               
                               <Link to="home" className="block mt-4 mb-4 mr-6 font-bold text-white lg:inline-block lg:mt-0 hover:text-teal-200"
-                              whileHover={{scale:1.1,originX:0}}
+                              whilehover={{scale:1.1,originX:0}}
                               transition={{type:'spring', stiffness:120}}
                               >
                                 <motion.div

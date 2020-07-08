@@ -20,9 +20,26 @@ const AboutMe = () => {
             </div>
             <div className="-mt-10 align-center md:mt-4">
                 <div className="mb-4 text-4xl font-extrabold hover:text-purple-400">About Me</div>
-                <div className="mt-2 text-purple-600">I am a passionate, self taught web developer with keen interest in innovative design</div>
-                <div className="text-purple-600"> implementation and understanding of technique geared towards optimum user experience.</div>
-                <div className="text-purple-600">I am result driven, so, I attach great importance to everything I do.</div>
+                <div className="mt-2 text-purple-600"
+                 data-aos="slide-left" 
+                 data-aos-offset="200"
+                 data-aos-easing="ease-in-cubic" 
+                 data-aos-duration="2000"
+                 data-aos-delay="200"
+                 >I am a passionate, self taught web developer with keen interest in innovative design</div>
+                <div className="text-purple-600"
+                 data-aos="slide-left" 
+                 data-aos-offset="200"
+                 data-aos-easing="ease-in-cubic" 
+                 data-aos-duration="2000"
+                 data-aos-delay="300"
+                 > implementation and understanding of technique geared towards optimum user experience.</div>
+                <div className="text-purple-600"
+                 data-aos="slide-left" 
+                 data-aos-offset="200"
+                 data-aos-delay="400"
+                 data-aos-easing="ease-in-cubic" 
+                 data-aos-duration="2000">I am result driven, so, I attach great importance to everything I do.</div>
             </div>      
             
         </div>

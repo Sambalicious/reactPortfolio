@@ -20,10 +20,10 @@ const buttonVariant = {
 const Home = () => {
     return ( 
         <div
-        data-aos="fade-up-left" 
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine" 
-        data-aos-duration="2000"
+            data-aos="fade-up-left" 
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine" 
+            data-aos-duration="2000"
 
         >
          
@@ -53,7 +53,7 @@ const Home = () => {
                  variants={buttonVariant}
                  whileHover='hover'
                  animate='visible'>
-                  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                  <svg className="w-4 h-4 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                   <span>Download Resume</span>
                 </motion.button>
             </a>
