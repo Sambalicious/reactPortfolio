@@ -14,7 +14,6 @@ const ContactMe = () => {
         <div id="contact" className="py-6 text-center text-white bg-purple-400"
         data-aos="fade-zoom-in" 
         data-aos-offset="0"
-        aos-delay="200"
         data-aos-easing="ease-in-back" 
         data-aos-duration="2000"
         >

@@ -7,9 +7,9 @@ const SkillsUtils = ({skill}) => {
     return (
         <div
         data-aos="zoom-out-left" 
-        data-aos-offset="200"
+        data-aos-offset="100"
         data-aos-easing="ease-in-cubic" 
-        data-aos-duration="2000"
+        data-aos-duration="1500"
         delay="20"
         >
         

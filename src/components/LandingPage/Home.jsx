@@ -61,20 +61,19 @@ const containerVariant={
 }
 const Home = () => {
     return ( 
-        <>
-          <ScrollAnimation animateIn='fadeIn'  animateOut='fadeOut'>
-        <motion.div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
-            variants={containerVariant}
-            initial="hidden"
-            animate="visible"
-            exit='exit'
+        <div
+        data-aos="fade-up-left" 
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" 
+        data-aos-duration="2000"
+
+        >
+         
+        <div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
+            
         >
             <div className="px-4 mx-auto md:mt-32">      
-            <motion.div
-               variants={containerVariants}
-               initial="hidden"
-               animate="visible"
-            >
+            <div>
               <div>
               <div className='mt-4 mb-2 text-2xl font-extrabold text-purple-600'> <ReactTypingEffect cursor=" " typingDelay={4000} eraseDelay={500000} text="Hello, I am" /></div>
                <div className="text-lg font-extrabold text-purple-600"><ReactTypingEffect cursor=" " typingDelay={6000} eraseDelay={500000} text="SAMUEL  AYEGBUSI. " /></div>
@@ -82,7 +81,7 @@ const Home = () => {
               </div>
            
              
-               </motion.div> 
+               </div> 
                <div className="mt-3 text-center">
                <div className="-mb-10">
                   <Loader />
@@ -109,9 +108,9 @@ const Home = () => {
             </div>
 
             
-        </motion.div>
-        </ScrollAnimation>
-        </>
+        </div>
+       
+        </div>
     
      );
 }

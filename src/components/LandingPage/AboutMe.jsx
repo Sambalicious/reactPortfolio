@@ -30,12 +30,9 @@ const AboutMe = () => {
           data-aos-duration="2000"
         >
         
-            <AnimatePresence exitBeforeEnter >
-        <motion.div  className="justify-center px-4 mx-6 mt-20 text-center md:flex"
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            exit='exit'
+            
+        <div  className="justify-center px-4 mx-6 mt-20 text-center md:flex"
+           
         >
             <div className="md:mr-5">
                 <img rel="preconnect" src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_is_code_thinking"/>
@@ -47,8 +44,8 @@ const AboutMe = () => {
                 <div className="text-purple-600">I am result driven, so, I attach great importance to everything I do.</div>
             </div>      
             
-        </motion.div>
-        </AnimatePresence>
+        </div>
+       
 
         </div>
     )
