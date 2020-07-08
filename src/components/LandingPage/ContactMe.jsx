@@ -45,7 +45,7 @@ const ContactMe = () => {
             
                 <div className="flex justify-end mb-2"> <button
                     onClick={()=>scroll.scrollToTop()}
-                 className="px-4 py-2 font-bold text-white  top">Top</button></div>
+                 className="px-3 py-1 text-white top"> Back To Top</button></div>
                
             <div className="flex justify-between">
 

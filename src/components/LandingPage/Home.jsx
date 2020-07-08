@@ -1,7 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import ReactTypingEffect from 'react-typing-effect';
-import ScrollAnimation from 'react-animate-on-scroll';
 import Loader from '../../utils/Loader';
 import LoaderTwo from '../../utils/LoaderTwo';
 
@@ -18,47 +17,6 @@ const buttonVariant = {
   
     }
   }
-
-
-  const containerVariants={
-    hidden:{
-      opacity:0,
-      x:'100vw'
-    },
-    visible:{
-      opacity:1,
-      x:0,
-      transition:{
-        type:'spring',
-        mass:0.4,
-        damping: 8,
-        delay:0.3,
-        when: 'beforeChildren',
-        staggerChildren: 2,
-        stiffness:300
-      }
-    }
-    
-}
-
-const containerVariant={
-  hidden:{
-    opacity:0,
-    x:'100vw'
-  },
-  visible:{
-    opacity:1,
-    x:0,
-    transition:{
-      type:'spring',
-      delay:1.5
-    }
-  },
-  exit:{
-    x:'-100vw',
-    transition:{ease:'easeInOut'}
-  }
-}
 const Home = () => {
     return ( 
         <div

@@ -1,24 +1,7 @@
 import React from 'react'
-import {motion, AnimatePresence} from 'framer-motion'
 
-const containerVariants={
-    hidden:{
-      opacity:0,
-      x:'100vw'
-    },
-    visible:{
-      opacity:1,
-      x:0,
-      transition:{
-        type:'spring',
-        delay:1.5
-      }
-    },
-    exit:{
-      x:'-100vw',
-      transition:{ease:'easeInOut'}
-    }
-  }
+
+
 
 
 const AboutMe = () => {
@@ -31,9 +14,7 @@ const AboutMe = () => {
         >
         
             
-        <div  className="justify-center px-4 mx-6 mt-20 text-center md:flex"
-           
-        >
+        <div  className="justify-center px-4 mx-6 mt-20 text-center md:flex">
             <div className="md:mr-5">
                 <img rel="preconnect" src="https://i.ibb.co/vZQy9dt/undraw-code-thinking-1jeh.png" alt="man_is_code_thinking"/>
             </div>
