@@ -15,7 +15,7 @@ const ContactMe = () => {
         data-aos="fade-zoom-in" 
         data-aos-offset="0"
         data-aos-easing="ease-in-back" 
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         >
             <div className="pb-2 text-lg font-bold">GET IN TOUCH</div>
             <div><span className="flex justify-center"><span className="mr-2"><FaPhoneAlt size={'1rem'} /></span>07033098551</span></div>

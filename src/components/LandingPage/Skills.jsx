@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-import ScrollAnimation from 'react-animate-on-scroll';
+
 import SkillsUtils from '../../utils/SkillsUtils'
 
 
@@ -19,9 +19,14 @@ const Skills = () => {
     return (
        
         <div className="my-12 bg-white">  
-         <ScrollAnimation animateIn='fadeIn'  animateOut='fadeOut'>
+         
        
-            <div className="mt-3 mb-6  text-4xl font-extrabold text-center hover:text-purple-400">
+            <div className="mt-3 mb-6 text-4xl font-extrabold text-center hover:text-purple-400"
+            data-aos="slide-right" 
+            data-aos-offset="100"
+           data-aos-easing="ease-in-cubic" 
+            data-aos-duration="1000"
+           >
                 Skills
                
                 </div>
@@ -32,7 +37,7 @@ const Skills = () => {
                 animate="visible"
                 >
                 <SkillsUtils skill={'HTML5'} />
-                <SkillsUtils skill={'CSS3 & SCSS'} />
+                <SkillsUtils skill={'CSS3 & SASS'} />
                 <SkillsUtils skill={'Javascript(ES5/ES6+)'} />
                 <SkillsUtils skill={'Git & Github'} />
                 <SkillsUtils skill={'Firebase'} />
@@ -41,10 +46,10 @@ const Skills = () => {
                 <SkillsUtils skill={'React'} />
                 <SkillsUtils skill={'JQuery'} />
                 <SkillsUtils skill={'REST API'} />
-                <SkillsUtils skill={'Boostrap'} />
+                <SkillsUtils skill={'Bootstrap'} />
                 <SkillsUtils skill={'TailwindCSS'} />
             </motion.div>
-            </ScrollAnimation>
+           
         </div>
   
     )

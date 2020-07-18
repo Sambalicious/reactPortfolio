@@ -9,7 +9,7 @@ const SkillsUtils = ({skill}) => {
         data-aos="zoom-out-left" 
         data-aos-offset="100"
         data-aos-easing="ease-in-cubic" 
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         delay="20"
         >
         

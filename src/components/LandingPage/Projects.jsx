@@ -7,9 +7,14 @@ const Projects = () => {
     return ( 
        
         <div id="projects" className="mx-5 my-16 md:my-20 md:mx-20">
-            <ScrollAnimation animateIn="bounceInRight"  animateOut="bounceOutLeft">
-             <h2 className="my-3 text-4xl font-extrabold text-center hover:text-purple-400">Projects</h2>
-             </ScrollAnimation>
+           
+             <h2 className="my-3 text-4xl font-extrabold text-center hover:text-purple-400"
+             data-aos="fade-in" 
+             data-aos-offset="100"
+            data-aos-easing="ease-in-cubic" 
+             data-aos-duration="1000"
+             data-aos-delay="30">Projects</h2>
+            
             <div class="lg:grid grid-cols-3 row-gap-5 col-gap-10">
                 <ProjectsUtils
                     title={'Learn It'}
