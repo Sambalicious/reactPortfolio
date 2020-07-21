@@ -27,7 +27,7 @@ const Home = () => {
 
         >
          
-        <div id="home" className="flex flex-col-reverse justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
+        <div id="home" className="flex flex-col-reverse overflow-x-hidden justify-between mb-6 md:mb-10 md:mt-15 md:flex-row"
             
         >
             <div className="px-4 mx-auto md:mt-32">      
@@ -59,7 +59,7 @@ const Home = () => {
             </a>
             </div>
             </div>
-            <div className="flex justify-start "
+            <div className="hidden lg:flex justify-start "
                 
                 >
                 <img rel="preconnect" src="https://i.ibb.co/jLBwTM9/undraw-developer-activity-bv83.png" alt="man_operating_a_computer"/>

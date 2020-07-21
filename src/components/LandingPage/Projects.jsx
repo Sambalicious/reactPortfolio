@@ -16,10 +16,10 @@ const Projects = () => {
             
             <div class="lg:grid grid-cols-3 row-gap-5 col-gap-10">
                 <ProjectsUtils
-                    title={'Learn It'}
+                    title={'Edugrid'}
                     body={'Learn IT is an educational platform that mimicks some of the functionalities of Udemy. Instructors can create course and Students can access courses.'}
                     technology={'Technologies: React, Cloudinary API, imgurAPI, TailwindCSS, Context API'}
-                    link1={'https://learnit20.herokuapp.com/'}
+                    link1={'https://edugrid.herokuapp.com/'}
                     link2={'https://github.com/Sambalicious/learn-It'}
                />
 
