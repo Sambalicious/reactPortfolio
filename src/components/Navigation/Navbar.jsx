@@ -7,7 +7,7 @@ const Navbar = () => {
     const [show, setShow] = useState(true);
     return ( 
         <>
-            <nav id="nav" className="flex flex-wrap items-center justify-between p-3 pl-3 bg-purple-400 ">
+            <nav id="nav" className="flex flex-wrap items-center sticky justify-between p-3 pl-3 bg-purple-400 ">
                           
                           <motion.div className="items-center flex-shrink-0 mr-6 text-white lg:flex"
                                drag
