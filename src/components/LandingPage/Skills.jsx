@@ -18,7 +18,7 @@ const skillVariant = {
 const Skills = () => {
     return (
        
-        <div className="my-12 bg-white">  
+        <div className="my-12 bg-white overflow-x-hidden">  
          
        
             <div className="mt-3 mb-6 text-4xl font-extrabold text-center hover:text-purple-400"
