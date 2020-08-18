@@ -18,7 +18,7 @@ const skillVariant = {
 const Skills = () => {
     return (
        
-        <div className="my-12 bg-white overflow-x-hidden">  
+        <div className="my-12 overflow-x-hidden bg-white">  
          
        
             <div className="mt-3 mb-6 text-4xl font-extrabold text-center hover:text-purple-400"
@@ -44,10 +44,10 @@ const Skills = () => {
                 <SkillsUtils skill={'MongoDB'} />
                 <SkillsUtils skill={'Redux'} />
                 <SkillsUtils skill={'React'} />
-                <SkillsUtils skill={'JQuery'} />
                 <SkillsUtils skill={'REST API'} />
                 <SkillsUtils skill={'Bootstrap'} />
                 <SkillsUtils skill={'TailwindCSS'} />
+                <SkillsUtils skill={'Chakra-UI'} />
             </motion.div>
            
         </div>

@@ -39,6 +39,14 @@ const Projects = () => {
                     link2={'https://github.com/Sambalicious/VGG_landing_page'}
                 />
 
+            <ProjectsUtils
+                    title={'Hasta-La Gista'}
+                    body={'A  create-react-app built with Chakra-UI for blogging. It includes some Admin functions '}
+                    technology={'Technologies: React, Redux, Chakra-UI, Firebase'}
+                    link1={'https://hastalagista.firebaseapp.com/'}
+                    link2={'https://github.com/Sambalicious/gist'}
+                 />
+
                 <ProjectsUtils 
                     title={'Luxury Hotel'}
                     body={'A website Template for Hotel companies. Customers can browse room prices, checkout hotel\'s facilities and also book their favourite rooms.'}
@@ -55,13 +63,7 @@ const Projects = () => {
                     link2={'https://github.com/Sambalicious/recreational_app_frontend_staging'}
                 />
 
-                <ProjectsUtils
-                    title={'MyWallet'}
-                    body={'A create-react-app that keeps track of user\'s income and expenses. Once the App is ready, it will help to keep track of transactions and stores inflows and outflows of money'}
-                    technology={'Technologies: React, Context API'}
-                    link1={'https://e-pocket.netlify.app/'}
-                    link2={'https://github.com/Sambalicious/moneyCalc'}
-                 />
+               
 
 
             </div>
