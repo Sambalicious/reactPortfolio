@@ -4,29 +4,28 @@
 
 @import "tailwindcss/utilities";
 
-body{
-    font-family: 'Montserrat';
-    width:100%;
+body {
+  font-family: "Montserrat";
+  width: 100%;
 }
 
 /* loader */
-.loader{
-    width: 10px;
-    height: 10px;
-    margin: 40px auto;
-    border-radius: 50%;
-    background: #b794f4;
-  }
+.loader {
+  width: 10px;
+  height: 10px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background: #b794f4;
+}
 
-  .top{
-      background-color: rgba(0,0,0,0.5);
-  }
+.top {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  
 @media (max-width: 576px) {
-    .content {
-        padding-top: 51px;
-    }
+  .content {
+    padding-top: 51px;
+  }
 }
 
 @media (min-width: 577px) {
@@ -35,11 +34,11 @@ body{
   }
 
   .nav-sticky {
-    position: fixed!important;
+    position: fixed !important;
     min-width: 100%;
     top: 0;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-    transition: all .25s ease-in;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease-in;
     z-index: 1;
   }
 }
@@ -55,7 +54,7 @@ body{
 
 .hamburger__top-bun,
 .hamburger__bottom-bun {
-  content: '';
+  content: "";
   position: absolute;
   width: 24px;
   height: 2px;
@@ -82,13 +81,74 @@ body{
 }
 
 .open .hamburger__top-bun {
-  transform:
-    rotate(45deg)
-    translateY(0px);
+  transform: rotate(45deg) translateY(0px);
 }
 
 .open .hamburger__bottom-bun {
-  transform:
-    rotate(-45deg)
-    translateY(0px);
+  transform: rotate(-45deg) translateY(0px);
+}
+
+.floating-btn {
+  cursor: pointer;
+  right: 20px;
+  bottom: 150px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.65),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 11px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* background-color: $primaryColor; */
+  transition: 200ms all;
+  z-index: 5;
+  outline: 0px;
+  @media (max-width: 767px) {
+    height: 53px;
+    width: 53px;
+    font-size: 10px;
+    bottom: 15px;
+    z-index: 18;
+  }
+}
+.floating-btn:focus {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+.custom-btn {
+  color: #232f49;
+  display: inline-block;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 11px 21px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  font-family: inherit;
+}
+.custom-btn:active,
+.custom-btn:focus {
+  outline: none;
+}
+.custom-btn-focus {
+  @media (min-width: 1225px) {
+    .custom-btn:focus {
+      /* outline: -webkit-focus-ring-color auto 1px; */
+    }
+  }
 }
